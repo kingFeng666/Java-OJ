@@ -10,7 +10,7 @@ public class Solution01 {
             temp[chars[i]]++;
         }
         for (int i = 0 ; i < temp.length; i++ ) {
-            //要按照字符串的字符顺序进行遍历
+            //要按照字符串的字符顺序进行遍历 这里是个坑 需要注意
             if(temp[chars[i]] == 1 ) {
                 return i;
             }
