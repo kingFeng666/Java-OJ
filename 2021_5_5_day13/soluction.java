@@ -4,7 +4,7 @@ public class Solution {
         if (len == 0) {
             return 0;
         }
-        // 特判
+        // 特判1
         if (nums[len - 1] < target) {
             return len;
         }
