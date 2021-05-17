@@ -11,9 +11,7 @@
 输出: 6
 解释: 连续子数组 [4,-1,2,1] 的和最大，为 6。
 
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
 */
 class Solution {
     public int maxSubArray(int[] nums) {
