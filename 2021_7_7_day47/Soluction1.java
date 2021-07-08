@@ -71,6 +71,7 @@
  *     }
  * }
  */
+//对每个节点的value值进行了更改存储的是一棵完全二叉树从0 开始到最后一个节点的值
 class Solution {
     public int widthOfBinaryTree(TreeNode root) {
     //二叉树的最大宽度,修改二叉树节点的值,然后每一层的最大宽度就是最左边子树的序号减去最右边子树的序号

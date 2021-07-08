@@ -37,6 +37,7 @@
  *     }
  * }
  */
+//递归
 class Solution {
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
      //合并规则,相同位置如果都有节点就将节点的值进行相加,如果不是同时有值将此节点作为合并后的新树的值
